@@ -31,14 +31,12 @@ body {
 
 /* pieces are div within game table cells: draw as colored circles */
 .piece {
-	/* TODO: make the piece div round, not square */
 	margin: 10px;
 	width: 80%;
 	height: 80%;
-	border-radius: 40px;
+	border-radius: 50%;
 }
 
-/* TODO: make pieces red/blue, depending on player 1/2 piece */
 .p1 {
 	background-color: crimson;
 }
